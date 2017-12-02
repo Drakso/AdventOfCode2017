@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <title>Task 1: Part 1</title>
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    </head>
+    <body>
+        <h1>--- Day 1: Inverse Captcha ---</h1>
+        <p>The night before Christmas, one of Santa's Elves calls you in a panic. "The printer's broken! We can't print the <span class="white">Naughty or Nice List!</span>" By the time you make it to sub-basement 17, there are only a few minutes until midnight. "We have a big problem," she says; "there must be almost <span class="white">fifty</span> bugs in this system, but nothing else can print The List. Stand in this square, quick! There's no time to explain; if you can convince them to pay you in <span class="yellow">stars</span>, you'll be able to--" She pulls a lever and the world goes blurry.
+            
+            <br><br>When your eyes can focus again, everything seems a lot more pixelated than before. She must have sent you inside the computer! You check the system clock: <span class="white">25 milliseconds</span> until midnight. With that much time, you should be able to collect all <span class="yellow">fifty stars</span> by December 25th.
+            
+            <br><br>Collect stars by solving puzzles. Two puzzles will be made available on each <span class="crossed">day</span> millisecond in the advent calendar; the second puzzle is unlocked when you complete the first. Each puzzle grants <span class="yellow">one star</span>. Good luck!
+            
+            <br><br>You're standing in a room with "digitization quarantine" written in LEDs along one wall. The only door is locked, but it includes a small interface. "Restricted Area - Strictly No Digitized Users Allowed."
+            
+            <br><br>It goes on to explain that you may only leave by solving a <span class="green">captcha</span> to prove you're <span class="white">not</span> a human. Apparently, you only get one millisecond to solve the captcha: too fast for a normal human, but it feels like hours to you.
+            
+            <br><br>The captcha requires you to review a sequence of digits (your puzzle input) and find the <span class="white">sum</span> of all digits that match the <span class="white">next</span> digit in the list. The list is circular, so the digit after the last digit is the <span class="white">first</span> digit in the list.
+            
+            <br><br>For example:
+            
+            <br><br><span class="border">1122</span> produces a sum of <span class="border">3</span> (<span class="border">1</span> + <span class="border">2</span>) because the first digit (<span class="border">1</span>) matches the second digit and the third digit (<span class="border">2</span>) matches the fourth digit.
+            <br><span class="border">1111</span> produces <span class="border">4</span> because each digit (all <span class="border">1</span>) matches the next.
+            <br><span class="border">1234</span> produces <span class="border">0</span> because no digit matches the next.
+            <br><span class="border">91212129</span> produces <span class="border">9</span> because the only digit that matches the next one is the last digit, <span class="border">9</span>.
+            <br><span class="white">What is the solution</span> to your captcha?</p>
+            <h3>Input number:</h3>
+            <input type="text" class="inputNumber" placeholder="Puzzle Input">
+            <h3>Your Answer:</h3>
+            <h2 class="answer"></h2>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="script.js" type="text/javascript"></script>        
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    </body>
+</html>
