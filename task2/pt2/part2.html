@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <title>Task 2: Part 2</title>
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    </head>
+    <body>
+        <h1>--- Part Two ---</h1>
+        <p><br><br>"Great work; looks like we're on the right track after all. Here's a <span class="yellow">star</span> for your effort." However, the program seems a little worried. Can programs <span class="white">be</span> worried?
+            
+            <br><br>"Based on what we're seeing, it looks like all the User wanted is some information about the <span class="white">evenly divisible values</span> in the spreadsheet. Unfortunately, none of us are equipped for that kind of calculation - most of us specialize in bitwise operations."
+            
+            <br><br>It sounds like the goal is to find the only two numbers in each row where one evenly divides the other - that is, where the result of the division operation is a whole number. They would like you to find those numbers on each line, divide them, and add up each line's result.
+            
+            <br><br>For example, given the following spreadsheet:
+            
+            <br><br><span class="border">5 9 2 8
+            <br>9 4 7 3
+            <br>3 8 6 5</span>
+            <br><br>In the first row, the only two numbers that evenly divide are <span class="border">8</span> and <span class="border">2</span>; the result of this division is <span class="border">4</span>.
+            <br>In the second row, the two numbers are <span class="border">9</span> and <span class="border">3</span>; the result is <span class="border">3</span>.
+            <br>In the third row, the result is <span class="border">2</span>.
+            <br>In this example, the sum of the results would be <span class="border">4 + 3 + 2 = 9</span>.
+            
+            What is the <span class="white">sum of each row's result</span> in your puzzle input?</p>
+            <h3>Input number:</h3>
+            <textarea type="text" class="inputNumber" placeholder="Puzzle Input" rows="20"></textarea>
+            <button class="btn btn-danger">GENERATE</button>
+            <h3>Your Answer:</h3>
+            <h2 class="answer"></h2>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="script.js" type="text/javascript"></script>        
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    </body>
+</html>
